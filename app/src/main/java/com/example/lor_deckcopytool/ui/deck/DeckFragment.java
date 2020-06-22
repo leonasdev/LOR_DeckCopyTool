@@ -38,7 +38,9 @@ public class DeckFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        cards.add(new Card("伊莉絲","暗影島",getString(R.string.card_d1),R.drawable.card_elise));
+        cards.add(new Card("伊莉絲","暗影島",
+                getString(R.string.card_d1),R.drawable.card_elise));
+
         cards.add(new Card("卡特蓮娜","諾克薩斯",getString(R.string.card_d2),R.drawable.card_katarina));
         cards.add(new Card("克黎思妲","暗影島",getString(R.string.card_d3),R.drawable.card_kalista));
         cards.add(new Card("劫","諾克薩斯",getString(R.string.card_d4),R.drawable.card_zed));
@@ -52,9 +54,12 @@ public class DeckFragment extends Fragment {
         cards.add(new Card("那帝魯斯","比爾吉沃特",getString(R.string.card_d12),R.drawable.card_nautilus));
         cards.add(new Card("伊澤瑞爾", "皮爾托福 & 左恩",getString(R.string.card_d13),R.drawable.card_ezreal));
 
-        decks.add(new Deck("泡麵頭菲艾", "Tier S", "艾歐尼亞", "皮爾托福 & 左恩", "中速",
-                getString(R.string.d1), getString(R.string.h1), R.drawable.hero_vi, R.drawable.hero_heimerdinger, R.drawable.hero_vi_2,R.drawable.hero_heimerdinger_2,
-                "菲艾","漢默丁格",getString(R.string.code1), cards.get(7), cards.get(8)));
+        decks.add(new Deck("泡麵頭菲艾", "Tier S", "艾歐尼亞",
+                "皮爾托福 & 左恩", "中速",
+                getString(R.string.d1), getString(R.string.h1), R.drawable.hero_vi, R.drawable.hero_heimerdinger,
+                R.drawable.hero_vi_2,R.drawable.hero_heimerdinger_2,
+                "菲艾","漢默丁格",getString(R.string.code1),
+                cards.get(7), cards.get(8)));
 
         decks.add(new Deck("好運豬", "Tier S", "比爾吉沃特", "弗雷卓爾德", "中速",
                 getString(R.string.d2), getString(R.string.h2),R.drawable.hero_missfortune,R.drawable.hero_sejuani,R.drawable.hero_missfortune_2,R.drawable.hero_sejuani_2,

@@ -40,6 +40,7 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder> {
             region_iconView = itemView.findViewById(R.id.region_icon);
             card_imgView = itemView.findViewById(R.id.card_img);
             myDialog = new Dialog(itemView.getContext());
+
             card_imgView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {

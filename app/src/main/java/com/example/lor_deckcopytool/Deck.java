@@ -52,6 +52,4 @@ public class Deck{
     private String title,tier,region_1,region_2,type,description,how,heroname1,heroname2,code;
     private int hero_1, hero_2, hero_1_2, hero_2_2;
     private Card card_1, card_2;
-
-
 }
