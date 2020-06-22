@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/item_background"
+            android:padding="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tier"-->
+<!--                    android:layout_width="60dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:background="@drawable/tier_a_background"-->
+<!--                    android:gravity="center"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:layout_alignParentTop="true"-->
+<!--                    android:text="Tier S"-->
+<!--                    android:textColor="#FF8000"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textSize="12dp"-->
+<!--                    android:padding="2dp"/>-->
+
+                <ImageView
+                    android:id="@+id/region_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="5dp"
+                    tools:srcCompat="@drawable/icon_shadowisles" />
+                <ImageView
+                    android:id="@+id/champion_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/champion_text"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/icon_champion"/>
+
+                <TextView
+                    android:id="@+id/region_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/region_icon"
+                    android:layout_marginRight="20dp"
+                    android:textStyle="bold"
+                    android:text="Region1"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/champion_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:textStyle="bold"
+                    android:text="英雄"
+                    android:textSize="16dp"
+                    android:textColor="?attr/type_text"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/card_img"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    tools:srcCompat="@drawable/card_vi" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp">
+
+                    <TextView
+                        android:id="@+id/title_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Title"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="?attr/textcolor"/>
+
+                    <TextView
+                        android:id="@+id/dscrp_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:textColor="?attr/type_text"
+                        android:textStyle="bold"
+                        android:textSize="16sp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

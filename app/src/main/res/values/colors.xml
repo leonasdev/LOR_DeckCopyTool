@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#272727</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+<!--    <color name="main_bg">#1F1F1F</color>-->
+<!--    <color name="item_bg">#272727</color>-->
+<!--    <color name="type_text">#6C6F93</color>-->
+    <color name="noxus">#a0524f</color>
+    <color name="piltover_zaun">#e29f76</color>
+    <color name="bilgewater">#8e473d</color>
+    <color name="freljord">#8fd7f3</color>
+    <color name="shadow_isles">#3b7d6f</color>
+    <color name="ionia">#cf829b</color>
+    <color name="demacia">#e6d9b7</color>
+
+</resources>

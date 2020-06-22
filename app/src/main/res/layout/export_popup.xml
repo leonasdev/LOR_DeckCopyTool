@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="475dp"
+    android:background="@drawable/popup_background"
+    android:layout_gravity="center"
+    android:padding="5dp">
+    <TextView
+        android:id="@+id/txtclose"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textColor="#fff"
+        android:text="X"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:textSize="30sp"/>
+    <LinearLayout
+        android:layout_width= "match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="匯出你的牌組"
+            android:textColor="#fff"
+            android:layout_marginBottom="20dp"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="1.按下下方的複製代碼按鈕。"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="2.開啟你的符文大地傳說遊戲主程式。"
+            android:textColor="#fff"/>
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="3.打開你牌組的收藏，點擊匯入牌組，即可完成。"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/btn_export"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center"
+            android:text="複製代碼"
+            android:onClick="export"/>
+
+        <TextView
+            android:id="@+id/codeView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="AWRIOWQJRIOWJQIOR"
+            android:textColor="#fff"/>
+    </LinearLayout>
+</LinearLayout>

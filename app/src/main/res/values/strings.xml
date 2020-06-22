@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">LOR DeckCopyTool</string>
+    <string name="title_home">CARDS</string>
+    <string name="title_dashboard">TIER LIST</string>
+    <string name="title_notifications">SETTING</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_deckdetail">Deckdetail</string>
+    <string name="d1">此為Alanzq選手使用的版本。</string>
+    <string name="h1">確保你的泡麵頭可以被保住才召喚他，例如你手中有:抵制，雙重戒律等。</string>
+    <string name="d2">此為Swim選手使用的版本。</string>
+    <string name="h2">有計畫性的觸發洗劫，加速史瓦妮的進化，不要害把將好運姊拉上場攻擊。</string>
+    <string name="d3">此為邱映陽選手使用的版本，以 虛厄韌獸 + 殘酷暴行 為主要收頭手段的牌組。</string>
+    <string name="h3">持續控制場面，一邊讓侍從死亡疊加虛厄韌獸的攻擊力，直到你抽到虛厄韌獸 + 殘酷暴行。</string>
+    <string name="d4">非常積極攻擊的牌組，用許多的隱密從者讓敵方無法阻擋你。</string>
+    <string name="h4">4費準時下均衡引路人很重要，運用法術牌來COUNTER不好解的敵方侍從。</string>
+    <string name="d5">新版的EZ卡瑪控</string>
+    <string name="h5">把EZ扣在手上直到他可以升級，所有法術牌在10費前全部用來控場，10費卡瑪進化時，開秀。</string>
+    <string name="d6">卡牌核心玩法是"探底"，探底可以讓你的海館怪變很強。</string>
+    <string name="h6">前期盡量控制場面，直到探底。</string>
+    <string name="d7">此為Mogwai選手使用的版本。</string>
+    <string name="h7">運用卡特蓮娜的招回來BUFF炫刃者飛，並持續對敵方施加壓力，如果敵方是中速牌組，則威嚇咆嘯搭配犽宿的COMBO只要打出來，對方可能就投降了。</string>
+    <string name="code1">CECAKAIECANSONBYAIBAEAIJAQAQEAQMEY4QCAQEBAAQEAICEUYQA</string>
+    <string name="card_d1">攻擊：召喚一個正在攻擊的蜘蛛幼仔。</string>
+    <string name="card_d2">打出：生成一張易逝的刀鋒利刃置入手牌。</string>
+    <string name="card_d3">凶煞：只能被攻擊力大於等於3的單位格擋。</string>
+    <string name="card_d4">攻擊：按此牌的攻擊力和生命值召喚一個正在攻擊的影分身。</string>
+    <string name="card_d5">當友軍攻擊時，對所有參戰敵軍和敵方水晶造成1點傷害。</string>
+    <string name="card_d6">當己方擊暈或召回一個敵軍時，此牌造成2點傷害。</string>
+    <string name="card_d7">己方打出另一個友軍時，投擲2並召喚1個樹苗，每回合限定一次。</string>
+    <string name="card_d8">若此牌在場或在手牌中，當己方打出另一張牌時，給此牌+1 | +0，上限+8 | +0。 </string>
+    <string name="card_d9">當己方施放法術時，生成一張易逝的同消耗砲台置入手牌。本回合其消耗為0。</string>
+    <string name="card_d10">打出：本回合寒襲一個敵軍並給其易損。</string>
+    <string name="card_d11">回合結束：生成一張己方牌組區域的法術牌置入手牌。</string>
+    <string name="card_d12">當此牌升級時，複製被投擲的4+消耗友軍洗入己方牌組。</string>
+    <string name="card_d13">打擊水晶：生成一張易逝的秘術射擊置入手牌。</string>
+</resources>
